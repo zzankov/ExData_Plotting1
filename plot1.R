@@ -1,4 +1,4 @@
-#setwd("C:/Users/hariz_000/Dropbox/R/exdata-002/")
+#setwd("C:/Users/hariz_000/Dropbox/R/exdata-002/") asd asd 
 data <- read.table("household_power_consumption.txt",header = T, sep = ";",as.is=T,na.strings = "?")
 data$Date <- as.Date(data$Date,"%d/%m/%Y")
 data <- data[data$Date == '2007-02-01' | data$Date == '2007-02-02',]
